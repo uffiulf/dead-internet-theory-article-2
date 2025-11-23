@@ -3,7 +3,21 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 
 export default function Hero({ title, subtitle, image, imageAlt }) {
   const { scrollYProgress } = useScroll();
-  const heroImage = image || "/Shrimp_Jesus_example.jpg";
+  
+  // Ensure image paths work with Vite base URL
+  const getImageSrc = (imageSrc) => {
+    if (!imageSrc) return '';
+    // If it's already a full URL, return as is
+    if (imageSrc.startsWith('http://') || imageSrc.startsWith('https://')) {
+      return imageSrc;
+    }
+    // For local paths, ensure they work with base URL
+    const baseUrl = import.meta.env.BASE_URL;
+    const cleanPath = imageSrc.startsWith('/') ? imageSrc.slice(1) : imageSrc;
+    return `${baseUrl}${cleanPath}`;
+  };
+  
+  const heroImage = getImageSrc(image || "/Shrimp_Jesus_example.jpg");
 
   const parallaxY = useTransform(scrollYProgress, [0, 1], [0, -100]);
 

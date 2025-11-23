@@ -14,6 +14,19 @@ export default function ImageFull({
 
   if (!src && (!images || images.length === 0)) return null;
 
+  // Ensure image paths work with Vite base URL
+  const getImageSrc = (imageSrc) => {
+    if (!imageSrc) return '';
+    // If it's already a full URL, return as is
+    if (imageSrc.startsWith('http://') || imageSrc.startsWith('https://')) {
+      return imageSrc;
+    }
+    // For local paths, ensure they start with / and work with base URL
+    const baseUrl = import.meta.env.BASE_URL;
+    const cleanPath = imageSrc.startsWith('/') ? imageSrc.slice(1) : imageSrc;
+    return `${baseUrl}${cleanPath}`;
+  };
+
   return (
     <section className={`py-8 md:py-12 lg:py-16 ${className}`}>
       <div className="container-custom">
@@ -29,7 +42,7 @@ export default function ImageFull({
               {images.map((imgSrc, index) => (
                 <div key={index} className="relative aspect-[4/5] overflow-hidden rounded-lg shadow-2xl">
                   <img
-                    src={imgSrc}
+                    src={getImageSrc(imgSrc)}
                     alt={`${alt || "Gallery image"} ${index + 1}`}
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                     loading="lazy"
@@ -39,7 +52,7 @@ export default function ImageFull({
             </div>
           ) : (
             <img
-              src={src}
+              src={getImageSrc(src)}
               alt={alt || ""}
               className="w-full h-auto rounded-lg shadow-2xl"
               loading="lazy"
