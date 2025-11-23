@@ -1,5 +1,5 @@
-import React, { useRef } from 'react';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import React, { useRef, useMemo } from 'react';
+import { motion, useInView } from 'framer-motion';
 
 export default function ScrollySection({
   id,
@@ -9,11 +9,12 @@ export default function ScrollySection({
   className = ""
 }) {
   const containerRef = useRef(null);
-  const { scrollYProgress } = useScroll({
-    target: containerRef,
-    offset: ["start start", "end end"],
-    layoutEffect: false
-  });
+
+  // Split content into paragraphs
+  const paragraphs = useMemo(() => {
+    if (!content) return [];
+    return content.split('\n\n').filter(p => p.trim());
+  }, [content]);
 
   return (
     <section
@@ -44,12 +45,36 @@ export default function ScrollySection({
           </motion.h2>
         )}
 
-        {/* Intro Content (if any remains) */}
-        {content && (
-          <div className="mb-24 max-w-3xl">
-            <p className="text-lg md:text-xl leading-relaxed text-gray-300">
-              {content}
-            </p>
+        {/* Intro Content - Gradual Paragraph Reveal */}
+        {paragraphs.length > 0 && (
+          <div className="mb-24 max-w-3xl space-y-6 md:space-y-8">
+            {paragraphs.map((paragraph, index) => {
+              const paragraphRef = useRef(null);
+              const isInView = useInView(paragraphRef, { 
+                once: false, 
+                margin: "-100px" 
+              });
+
+              return (
+                <motion.p
+                  key={index}
+                  ref={paragraphRef}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+                  transition={{ 
+                    duration: 0.6, 
+                    delay: index * 0.1,
+                    ease: "easeOut" 
+                  }}
+                  className="text-base md:text-lg lg:text-xl leading-relaxed"
+                  style={{
+                    color: 'var(--color-text-secondary)',
+                  }}
+                >
+                  {paragraph.trim()}
+                </motion.p>
+              );
+            })}
           </div>
         )}
 

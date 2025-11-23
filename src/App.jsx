@@ -11,6 +11,7 @@ import ChartLine from './components/charts/ChartLine';
 import ChartSlope from './components/charts/ChartSlope';
 import ChartBigNumber from './components/charts/ChartBigNumber';
 import ChartContainer from './components/charts/ChartContainer';
+import Sources from './components/Sources';
 import contentData from './data/content.json';
 
 function App() {
@@ -172,6 +173,11 @@ function App() {
             </div>
           </div>
         </section>
+      )}
+
+      {/* Sources Section */}
+      {content.sources && (
+        <Sources sources={content.sources} />
       )}
 
     </Layout>

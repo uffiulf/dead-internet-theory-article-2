@@ -259,5 +259,139 @@
       "showTyping": true,
       "hasGlitch": true
     }
-  ]
+  ],
+  "sources": {
+    "primary": [
+      {
+        "id": 1,
+        "publication": "The Conversation / UNSW Sydney",
+        "date": "mai 2024",
+        "title": "The 'dead internet theory' makes eerie claims about an AI-run web. The truth is more sinister",
+        "authors": "Jake Renzella & Vlada Rozova",
+        "url": "https://www.unsw.edu.au/newsroom/news/2024/05/-the-dead-internet-theory-makes-eerie-claims-about-an-ai-run-web-the-truth-is-more-sinister"
+      },
+      {
+        "id": 2,
+        "publication": "The Atlantic",
+        "date": "september 2021",
+        "title": "Maybe You Missed It, but the Internet 'Died' Five Years Ago",
+        "authors": "Kaitlyn Tiffany",
+        "url": null
+      },
+      {
+        "id": 3,
+        "publication": "Imperva Bad Bot Report",
+        "date": "2024",
+        "title": "Bots Now Make Up Nearly Half of All Internet Traffic Globally",
+        "authors": null,
+        "url": "https://www.imperva.com/resources/reports/2023-Imperva-Bad-Bot-Report.pdf"
+      },
+      {
+        "id": 4,
+        "publication": "NewsGuard",
+        "date": "mai 2025",
+        "title": "Rapport om AI-drevne nyhetssider og desinformasjon",
+        "authors": null,
+        "url": null
+      },
+      {
+        "id": 5,
+        "publication": "Pew Research Center",
+        "date": "2024",
+        "title": "Studie om link rot og forsvinning av nettinnhold",
+        "authors": null,
+        "url": null
+      },
+      {
+        "id": 6,
+        "publication": "Statistisk sentralbyrå (SSB)",
+        "date": "2024",
+        "title": "Nordmenns bruk av internett og digitale medier",
+        "authors": null,
+        "url": null
+      },
+      {
+        "id": 7,
+        "publication": "Nieman Journalism Lab",
+        "date": "april 2024",
+        "title": "From shrimp Jesus to fake self-portraits, AI-generated images have become the latest form of social media spam",
+        "authors": "Stanford Internet Observatory",
+        "url": "https://www.niemanlab.org/2024/04/from-shrimp-jesus-to-fake-self-portraits-ai-generated-images-have-become-the-latest-form-of-social-media-spam/"
+      },
+      {
+        "id": 8,
+        "publication": "The Guardian TechScape",
+        "date": "april 2024",
+        "title": "On the internet, where does the line between person end and bot begin?",
+        "authors": "Alex Hern",
+        "url": "https://www.theguardian.com/technology/2024/apr/30/techscape-artificial-intelligence-bots-dead-internet-theory"
+      },
+      {
+        "id": 9,
+        "publication": "El País",
+        "date": "september 2025",
+        "title": "'Dead internet theory' gains ground amid rise of AI-generated content",
+        "authors": null,
+        "url": "https://english.elpais.com/technology/2025-09-20/dead-internet-theory-gains-ground-amid-rise-of-ai-generated-content.html"
+      },
+      {
+        "id": 10,
+        "publication": "Popular Mechanics",
+        "date": "september 2025",
+        "title": "The Internet Will Be More Dead Than Alive Within 3 Years",
+        "authors": null,
+        "url": "https://www.popularmechanics.com/science/a65997294/dead-internet-explained/"
+      },
+      {
+        "id": 11,
+        "publication": "Physical Review Letters",
+        "date": "2023",
+        "title": "Studie om informasjonsspredning og cascade-effekter online",
+        "authors": null,
+        "url": null
+      },
+      {
+        "id": 12,
+        "publication": "Live Science",
+        "date": "september 2024",
+        "title": "What is the dead internet conspiracy?",
+        "authors": null,
+        "url": "https://www.livescience.com/technology/artificial-intelligence/what-is-the-dead-internet-conspiracy"
+      }
+    ],
+    "secondary": [
+      {
+        "id": 1,
+        "publication": "BBC Radio – More or Less",
+        "date": "mai 2025",
+        "title": "How dead is the internet?",
+        "authors": null,
+        "url": null
+      },
+      {
+        "id": 2,
+        "publication": "BBC The Media Show",
+        "date": "juli 2025",
+        "title": "Christiane Amanpour, Dead Internet Theory, Food journalism",
+        "authors": null,
+        "url": null
+      },
+      {
+        "id": 3,
+        "publication": "NDTV",
+        "date": "oktober 2025",
+        "title": "Intervju med Alexis Ohanian om 'dead internet'",
+        "authors": null,
+        "url": "https://www.ndtv.com/feature/reddit-co-founder-alexis-ohanian-says-much-of-the-internet-is-dead-blames-bots-and-quasi-ai-9464019"
+      },
+      {
+        "id": 4,
+        "publication": "Cloudflare Blog",
+        "date": "2025",
+        "title": "From Googlebot to GPTBot: who's crawling your site in 2025",
+        "authors": null,
+        "url": null
+      }
+    ]
+  }
 }

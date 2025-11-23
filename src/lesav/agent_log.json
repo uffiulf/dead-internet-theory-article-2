@@ -37,7 +37,8 @@
         "ChartContainer.jsx": "Wrapper for chart-komponenter med glow-effekter"
       },
       "ui": {
-        "QuoteCard.jsx": "Ekspert-quote cards med gradient bakgrunn og glow-effekter"
+        "QuoteCard.jsx": "Ekspert-quote cards med gradient bakgrunn og glow-effekter",
+        "Sources.jsx": "Kildeliste-komponent med primær- og sekundærkilder, fade-in animasjoner og klikkbare lenker"
       }
     },
     "data": {
@@ -107,7 +108,48 @@
       "parallax": "Parallax-effekt på Hero bakgrunnsbilde",
       "count_up": "Animerte tall som teller opp når de kommer i view",
       "chart_animations": "Animerte charts som bygger seg opp ved scroll",
-      "glitch": "Dramatisk glitch-effekt med RGB-split og screen shake"
+      "glitch": "Dramatisk glitch-effekt med RGB-split og screen shake",
+      "sources_reveal": "Fade-in animasjoner for hver kilde i kildelisten med staggered delay"
+    }
+  },
+  "sources_implementation": {
+    "description": "Kildeliste som vises etter avslutningen med alle brukte kilder",
+    "features": [
+      "Primærkilder vises som nummerert liste (1-12)",
+      "Sekundærkilder vises som punktliste",
+      "Klikkbare lenker for kilder med URL (åpnes i ny fane)",
+      "Fade-in animasjoner med staggered delay for hver kilde",
+      "Responsiv design med max-width container",
+      "Styling i tråd med resten av nettsiden (mørkt tema, glow-effekter)"
+    ],
+    "technical_details": {
+      "data_structure": "Kilder lagret i content.json under 'sources' objekt med 'primary' og 'secondary' arrays",
+      "component": "Sources.jsx bruker useInView for fade-in animasjoner",
+      "styling": "Bruker CSS custom properties for konsistent farging",
+      "positioning": "Plassert etter quote cards-seksjonen i App.jsx",
+      "reverse_scroll": "Støtter reverse scroll-animasjon (resetter når man scroller tilbake)"
+    },
+    "source_categories": {
+      "primary_sources": [
+        "The Conversation / UNSW Sydney",
+        "The Atlantic",
+        "Imperva Bad Bot Report",
+        "NewsGuard",
+        "Pew Research Center",
+        "Statistisk sentralbyrå (SSB)",
+        "Nieman Journalism Lab",
+        "The Guardian TechScape",
+        "El País",
+        "Popular Mechanics",
+        "Physical Review Letters",
+        "Live Science"
+      ],
+      "secondary_sources": [
+        "BBC Radio – More or Less",
+        "BBC The Media Show",
+        "NDTV",
+        "Cloudflare Blog"
+      ]
     }
   },
   "major_fixes_and_improvements": {
@@ -154,6 +196,12 @@
     "unused_imports": {
       "issue": "Duplisert useRef import og ubrukt Label import",
       "solution": "Konsolidert imports og fjernet ubrukte"
+    },
+    "image_loading": {
+      "issue": "404-feil på bilder fra imgur",
+      "solution": "Flyttet bilder til public-mappen og oppdaterte referanser til lokale paths",
+      "base_url_support": "Lagt til BASE_URL-støtte i ImageFull.jsx og Hero.jsx for korrekt path-håndtering med Vite base config",
+      "file_naming": "Omdøpte bilder fra 'Facebook_AI_slop,__Shrimp_Jesus__1.jpg' til 'Facebook_AI_slop_Shrimp_Jesus_1.jpg' for å unngå problemer med kommaer i filnavn"
     }
   },
   "content_structure": {
@@ -213,7 +261,12 @@
       }
     ],
     "quotes": "4 ekspert-quotes med forfatter, rolle og tekst",
-    "elias_chat": "7 meldinger med typing-indikator, glitch-effekt og dramatisk avslutning"
+    "elias_chat": "7 meldinger med typing-indikator, glitch-effekt og dramatisk avslutning",
+    "sources": {
+      "primary": "12 primærkilder med publikasjon, dato, tittel, forfattere og URL",
+      "secondary": "4 sekundærkilder med publikasjon, dato, tittel og URL",
+      "display": "Vises etter avslutningen (seksjon 9) med fade-in animasjoner"
+    }
   },
   "visual_design": {
     "color_scheme": {
@@ -288,7 +341,7 @@
     "component_architecture": "Separasjon av concerns (layout, content, interactive) gjør koden mer vedlikeholdbar"
   },
   "files_created": {
-    "components": 15,
+    "components": 16,
     "data_files": 4,
     "style_files": 1,
     "config_files": 4
@@ -304,7 +357,15 @@
       ]
     }
   },
-  "last_updated": "2025-01-21",
-  "version": "1.0.0"
+  "recent_updates": {
+    "2025-01-23": [
+      "Implementert kildeliste (Sources.jsx) med primær- og sekundærkilder",
+      "Lagt til kilder i content.json med strukturert data",
+      "Integrert kildeliste i App.jsx etter avslutningen",
+      "Fikset bilde-loading med BASE_URL-støtte og omdøpt filer uten kommaer"
+    ]
+  },
+  "last_updated": "2025-01-23",
+  "version": "1.1.0"
 }
 
