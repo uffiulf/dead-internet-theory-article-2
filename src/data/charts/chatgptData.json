@@ -1,0 +1,32 @@
+{
+  "title": "The ChatGPT Effect: AI-Generated Content Surge",
+  "subtitle": "December 2022 → October 2024",
+  "data": [
+    {
+      "platform": "Medium",
+      "before": 1.77,
+      "after": 37.03,
+      "increase": 1991
+    },
+    {
+      "platform": "Quora",
+      "before": 2.06,
+      "after": 38.95,
+      "increase": 1789
+    },
+    {
+      "platform": "Reddit",
+      "before": 1.31,
+      "after": 2.45,
+      "increase": 87
+    },
+    {
+      "platform": "Facebook",
+      "before": 5.34,
+      "after": 41.18,
+      "increase": 671
+    }
+  ],
+  "chatgptLaunch": "November 2022",
+  "description": "På to år ble nesten 40 prosent av innholdet på store plattformer syntetisk"
+}

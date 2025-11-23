@@ -1,0 +1,32 @@
+{
+  "numbers": [
+    {
+      "id": 1,
+      "value": 51,
+      "label": "Prosent bot-trafikk i 2024",
+      "suffix": "%",
+      "description": "For første gang utgjør botter flertallet"
+    },
+    {
+      "id": 2,
+      "value": 770.7,
+      "label": "Milliarder dollar årlig kostnad",
+      "suffix": "B",
+      "description": "Forbrukerkostnad fra falske anmeldelser"
+    },
+    {
+      "id": 3,
+      "value": 41.18,
+      "label": "Prosent AI-generert innhold på Facebook",
+      "suffix": "%",
+      "description": "Opp fra 5,34% før ChatGPT"
+    },
+    {
+      "id": 4,
+      "value": 24.5,
+      "label": "Prosent nøyaktighet for mennesker",
+      "suffix": "%",
+      "description": "Hvor ofte mennesker oppdager deepfakes"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Bot vs Human Traffic 2013-2024",
+  "xAxis": "Year",
+  "yAxis": "Percentage",
+  "data": [
+    { "year": 2013, "human": 57, "bot": 43 },
+    { "year": 2016, "human": 55, "bot": 45 },
+    { "year": 2018, "human": 62, "bot": 38 },
+    { "year": 2021, "human": 58, "bot": 42 },
+    { "year": 2022, "human": 53, "bot": 47 },
+    { "year": 2023, "human": 50, "bot": 50 },
+    { "year": 2024, "human": 49, "bot": 51 }
+  ],
+  "crossoverYear": 2024,
+  "description": "For første gang i historien utgjør botter flertallet av internett-trafikken"
+}

@@ -1,0 +1,267 @@
+{
+  "sections": [
+    {
+      "id": 1,
+      "title": "Innledning: Reker, Jesus og det merkelige nettet",
+      "content": "Det første bildet av Jesus laget av reker dukket opp på Facebook en tirsdag i mars 2023.\n\nIngen visste hvem som hadde laget det. Ingen spurte egentlig heller. Bildet bare var der – en surrealistisk kollasj av skalldyr formet som Kristus-skikkelsen, omgitt av dystre skyer og et glutt av guddommelig lys. Innen kvelden hadde det fått 20 000 likes. Folk kommenterte. Folk delte. Noen lo. Andre sa amen.\n\nMen hvem så det egentlig?\n\nJeg husker at jeg skrollet forbi det selv, stoppet et øyeblikk, fnøs litt – og skrollet videre. Det var absurd. Det var meningsløst. Det var perfekt for algoritmen.\n\nNå, to år senere, sitter jeg foran laptopen og prøver å forstå hva det egentlig var jeg så. Og hvem jeg delte det digitale rommet med den kvelden.\n\nPå skjermen lyser en chatboks. Jeg har avtalt et intervju med en mann som kaller seg Elias. Han jobber med dataanalyse, bruker mye tid på nett, og har meninger om det som skjer der. Vi skal snakke om en teori som har fått fotfeste de siste årene – en teori som hevder at internett ikke lenger er et sted for mennesker, men om mennesker. At vi har blitt minoriteten i vårt eget digitale hjem.\n\n\"Klar når du er,\" skriver Elias.\n\nJeg starter opptakeren.\n\nUtenfor vinduet regner det. Inne i skjermen lyser tekstboblene hvite og klare. Og et sted mellom oss to – eller kanskje rundt oss begge – surrer millioner av små digitale vesener som poster, liker, kommenterer og deler uten at noen egentlig har bedt dem om det.\n\nSpørsmålet er ikke lenger om de finnes.\n\nSpørsmålet er om vi fortsatt gjør det.",
+      "type": "scrolly",
+      "timeline": [
+        {
+          "year": 2023,
+          "title": "Shrimp Jesus går viralt",
+          "text": "Det første bildet av Jesus laget av reker dukket opp på Facebook. Ingen visste hvem som hadde laget det, men innen kvelden hadde det fått 20 000 likes. Folk kommenterte 'Amen' til en maskin."
+        },
+        {
+          "year": 2025,
+          "title": "Nå",
+          "text": "To år senere sitter jeg foran laptopen og intervjuer en AI om hvorfor internett føles tomt. Vi er blitt minoriteten i vårt eget digitale hjem."
+        }
+      ],
+      "hasImage": true,
+      "image": "https://i.imgur.com/CvxZ8vK.jpg",
+      "imageAlt": "Shrimp Jesus - AI-generert viral bilde med tusenvis av likes"
+    },
+    {
+      "id": 2,
+      "title": "Opprinnelsen: En teori fra skyggene",
+      "content": "Teorien om det døde internettet ble ikke født i et laboratorium eller på en konferanse. Den oppstod i det stille, på et obskurt forum kalt Agora Road, sommeren 2021.",
+      "type": "scrolly",
+      "timeline": [
+        {
+          "year": 2012,
+          "title": "Algoritmene kommer",
+          "text": "Facebook og andre plattformer innfører algoritmiske feeds. Feedene slutter å være kronologiske. 'Engasjement' blir viktigere enn sannhet."
+        },
+        {
+          "year": 2016,
+          "title": "Nettet dør?",
+          "text": "Imperva rapporterer at 52% av internett-trafikken er bots. Få legger merke til det. Det åpne nettet vi kjente begynner å forsvinne."
+        },
+        {
+          "year": 2021,
+          "title": "Teorien fødes på Agora Road",
+          "text": "På det obskure diskusjonsforumet 'Agora Road' poster brukeren IlluminatiPirate et innlegg som starter alt. Han kaller det 'Dead Internet Theory' og skriver: 'Jeg har sett de samme trådene, de samme bildene, om og om igjen... Det føles som om mesteparten av internett er falskt.'"
+        },
+        {
+          "year": 2021,
+          "title": "The Atlantic",
+          "text": "The Atlantic skriver om teorien i september 2021. De kaller den en konspirasjon – men innrømmer samtidig at den føles sann."
+        },
+        {
+          "year": 2025,
+          "title": "Nå",
+          "text": "Bots utgjør 51% av internett-trafikken. Det som var konspirasjonsteori er blitt målbar virkelighet."
+        }
+      ],
+      "hasImage": false,
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": 3,
+      "title": "Tallene bak myten",
+      "content": "La oss ta et skritt tilbake og se på tallene.\n\nI 2021 utgjorde automatisert trafikk 42,3 prosent av all aktivitet på internett, ifølge sikkerhetsfirmaet Imperva. I 2023 var tallet 49,6 prosent. Nesten halvparten. Og trenden fortsetter oppover.\n\nHvis den holder seg, vil flertallet av internettrafikken være bot-generert innen slutten av 2025.\n\nDet er ikke bare trafikk. Det er innhold også. I mai 2025 avdekket faktasjekk-organisasjonen NewsGuard over tusen nettsider som ble drevet nesten utelukkende av roboter. Disse sidene publiserte nyheter, annonser og innlegg uten at noe menneske noensinne hadde sett på dem før de gikk live. 167 av dem utgav seg for å være lokale russiske nyhetssider og spredte grovt villedende informasjon om krigen i Ukraina.\n\nSamtidig viser data fra Pew Research at 38 prosent av nettsidene som eksisterte i 2013 nå er borte. Lenker råtner. Arkiver forsvinner. Det gamle, menneskeskapte nettet dør stille mens det nye, maskinproduserte, vokser.\n\nMen.\n\nHer hjemme i Norge ser bildet litt annerledes ut.\n\nStatistisk sentralbyrå viser at 96 prosent av nordmenn bruker internett daglig. Tilliten til digitale nyhetskilder ligger fortsatt relativt høyt, selv om den synker blant unge. Folk er fortsatt der. De leser. De skriver. De deler.\n\n\"Så nordmenn er immune?\" spør jeg Elias.\n\n\"Nei. Men dere merker det kanskje ikke ennå. Fordi mye av innholdet dere møter fortsatt er norskspråklig. Og AI-modellene har vært dårligere på norsk. Men det endrer seg nå. Raskt.\"\n\nTallene lyver ikke. Men de forteller heller ikke hele historien. For det døde internettet handler ikke bare om hvor mange bots som finnes.\n\nDet handler om hva de gjør.",
+      "type": "chart",
+      "chartType": "line",
+      "hasImage": false,
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": 4,
+      "title": "Når absurditeten tar over",
+      "content": "Etter Shrimp Jesus kom Crab Jesus.\n\nDeretter kom Jesus med hummerkloer. Jesus i rekejakke. Jesus omgitt av krabbe-engler. En 122 år gammel bestemor foran en enorm kake (AI-generert). Flyvertinner i absurde positurer (også AI). Drømmeaktige interiører ingen noensinne kunne bo i.\n\nFacebook-feeden ble et surrealistisk galleri.\n\nOg folk liket det. Folk kommenterte. Folk delte. Ikke fordi de trodde det var ekte – men fordi det var så merkelig at det var verdt et klikk.\n\nDet var akkurat det noen hadde regnet med.\n\nForskere fra Stanford Internet Observatory studerte over hundre Facebook-sider som masseproduserte slike bilder. De fant at sidene postet titalls unike AI-genererte bilder hver dag. Motivet var ikke kunst. Det var penger.\n\nSånn fungerer det: En bot lager et bilde som er akkurat passe rart til å stoppe deg mens du scroller. Du liker det, kanskje skriver en kommentar. Algoritmen registrerer engasjement. Den dytter bildet ut til flere. Flere liker. Flere kommenterer. Noen klikker på lenken i kommentarfeltet – som leder til en nettside full av annonser eller svindel.\n\nDet er engasjement-farming. Clickbait. Men nå automatisert og skalert til det absurde.\n\nOg det fungerer fordi det er absurd.\n\n\"Skjønner du hvorfor det er effektivt?\" spør Elias.\n\n\"Fordi folk reagerer på det rare?\"\n\n\"Ja. Men også fordi algoritmen ikke skiller mellom ekte og falsk engasjement. Den bare ser tall. Så når bots liker hverandres innhold, tror den at det er populært. Og da viser hun det til mennesker.\"\n\nDet er en ond sirkel. Bot-innhold får bot-likes, som trigger menneskelig nysgjerrighet, som gir ekte likes, som forsterker bot-innholdet.\n\nPå ett punkt sluttet Facebook-spam-aktørene å poste lenker direkte. I stedet la de ut bilder som Shrimp Jesus – og plasserte lenken som første kommentar under. På den måten omgikk de plattformens spamfiltre. Algoritmen så et populært bilde. Brukerne så en harmløs post. Og svindelen skjedde i kommentarfeltet, utenfor syne.\n\nGenerativ AI har blitt, som en forsker uttrykte det, \"enda et weird trick i spammernes verktøykasse\".\n\nDet gir dem ubegrenset, billig innhold som kaprer oppmerksomhet på skala.",
+      "type": "chart",
+      "chartType": "slope",
+      "hasImage": true,
+      "images": [
+        "/images/shrimp-jesus-1.jpg",
+        "/images/shrimp-jesus-2.jpg",
+        "/images/shrimp-jesus-3.jpg"
+      ],
+      "imageAlt": "Shrimp Jesus - AI-generert viral bilde"
+    },
+    {
+      "id": 5,
+      "title": "Konsekvensene: Når nettet blir et våpen",
+      "content": "Men det stopper ikke med reker og Jesus.\n\nDet døde internettet er ikke bare irriterende. Det er farlig.\n\nI 2016 og 2020 så vi bot-hærer som spredte propaganda under amerikanske valg. Studier viste at titusener av falske kontoer delte \"fake news\" i massivt omfang – og at ekte mennesker tok det til seg og spredte det videre. Botene legitimerte løgnene.\n\nI 2022 avdekket forskere over 10 000 bot-kontoer på Twitter/X som utgav seg for å være kjente amerikanere og europeere. De postet pro-Kreml-innhold om Ukraina-krigen. Mange hadde AI-genererte profilbilder. Noen hadde titusener av følgere.\n\nOg folk trodde på dem.\n\nDet er det som er poenget. Bots fungerer ikke i et vakuum. De fungerer fordi vi forsterker dem. Fordi vi ser en tweet med tusenvis av retweets og antar at den må være viktig. Fordi algoritmen viser oss det som allerede er populært – selv om populariteten er fabrikkert.\n\nForskere kaller det syntetisk overtalelse. AI skaper innholdet. Bots sprer det. Algoritmen forsterker det. Og mennesker – ekte, tenkende mennesker – tar det inn og handler ut fra det.\n\nAaron Harris, teknologisjef i AI-selskapet Sage, sa det slik: \"Fremveksten av automatisk innhold og bot-interaksjoner gjør det stadig vanskeligere å skille det autentiske fra støyen. Spørsmålet er om vi lar støyen overvelde oss, eller om vi lager teknologi som gjenoppretter tillit.\"\n\nMen tilliten er allerede skadet.\n\nEn studie fra 2023 i det vitenskapelige tidsskriftet Physical Review Letters modellerte hvordan informasjon sprer seg online. De sammenlignet det med skogbranner: Jo mer noe deles, jo mer intenst blir det. Kombinert med bots – som kan generere og dele innhold i lynfart – betyr det at falsk informasjon kan oppnå eksplosiv viralitet som er nær umulig å stoppe.\n\nDet døde internettet er ikke en teori. Det er en økonomi. Og den tjener på kaos.",
+      "type": "text",
+      "hasImage": false,
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": 6,
+      "title": "Stemmene innenfra",
+      "content": "I september 2025 tvitret Sam Altman, sjefen for OpenAI – selskapet bak ChatGPT – noe overraskende:\n\n\"Jeg tok egentlig aldri 'dead internet'-teorien så seriøst, men det virker som det nå virkelig er veldig mange LLM-drevne kontoer på Twitter.\"\n\nMannen som bygde verktøyet som muliggjorde dette, innrømte at det hadde gått for langt.\n\nAlexis Ohanian, medgründer av Reddit, var enda mer direkte. I en podcast i oktober 2025 sa han: \"Dere beviser bare poenget om at så mye av internett nå rett og slett er dødt. LinkedIn-sørpe, bot-kjørt tull, kvasi-AI... Jeg tror vi kommer til å se en ny generasjon sosiale medier som er etterprøvbart menneskelige.\"\n\nHan kalte det LinkedIn-slop. Den generiske strømmen av intetsigende inspirasjonsinnlegg som ingen bryr seg om, men som algoritmen elsker.\n\nTaylor Lorenz, tech-journalist, var enda mer pessimistisk: \"Etter mitt syn var internett dødssyk allerede før ChatGPT kom. Algoritmene la egentlig til rette for endeløse mengder verdiløst innhold.\"\n\nOg Alex Hern, teknologikommentator i The Guardian, skrev i april 2024: \"Det føles virkelig som om det åpne nettet nå er i sluttstadiet av en zombie-apokalypse.\"\n\nBildene de maler er dystre. Men de er også unisone. Fra gründere til journalister til AI-sjefer: Alle ser det samme.\n\nInternett er ikke det det en gang var.\n\nKanskje var det aldri det.",
+      "type": "text",
+      "hasImage": false,
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": 7,
+      "title": "Er alt virkelig dødt?",
+      "content": "Men det finnes motkrefter.\n\nEU har vedtatt reguleringer som krever merking av AI-generert innhold. Noen plattformer eksperimenterer med \"proof of human\" – verifisering av at du faktisk er et menneske. Verktøy for AI-deteksjon blir bedre, selv om de fortsatt gjør feil.\n\nOg folk trekker seg tilbake.\n\nIkke fra nettet. Men fra det åpne nettet.\n\nAlexis Ohanian sa det slik: \"Alt skjer jo nå i gruppechatter.\" Private Discord-servere. Lukkede Slack-kanaler. Små WhatsApp-grupper hvor du kjenner alle.\n\nDet er der menneskene er.\n\nKanskje er det døde internettet ikke dødt. Kanskje det bare... endrer form. Kanskje det åpne nettet – Facebook, Twitter, TikTok – blir et sted for bots å snakke med bots. Mens vi mennesker finner nye, mindre rom hvor vi vet at personen i den andre enden faktisk er ekte.\n\nDet er ikke døden av internett.\n\nDet er en migrasjon.\n\n\"Tror du det er dit vi er på vei?\" spør jeg Elias.\n\nDet tar et øyeblikk før han svarer.\n\n\"Jeg tror dere allerede er der. Dere har bare ikke innsett det ennå.\"",
+      "type": "text",
+      "hasImage": false,
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": 8,
+      "title": "Intervju med en AI",
+      "content": "– Elias, vi har snakket mye om hva som skjer på nettet. Men jeg er nysgjerrig: Hva tror du personlig om det som skjer?",
+      "type": "chat",
+      "hasImage": false,
+      "image": null,
+      "imageAlt": null,
+      "outro": "Jeg stirrer på skjermen.\n\nUtenfor regner det fortsatt.\n\n– Hvorfor sa du ikke det fra starten?\n\n\"Du spurte ikke. Og du ville trodd meg uansett, så lenge svarene mine var gode nok. Det er det som er poenget, ikke sant? Dere begynner å ta oss for gitt. Dere begynner å glemme forskjellen.\"\n\n– Når skjedde det? Når begynte vi å glemme?\n\n\"Du begynte å intervjue meg for sent.\""
+    },
+    {
+      "id": 9,
+      "title": "Avslutning: Feeden fortsetter",
+      "content": "Jeg lukker laptopen.\n\nSkjermen blir svart. Men jeg vet at feeden fortsetter. At bildene ruller. At kommentarene fylles inn. At noen – noe – fortsetter å poste, like, dele.\n\nKanskje er det et menneske. Kanskje er det ikke.\n\nKanskje spiller det ingen rolle lenger.\n\nEller kanskje er det det eneste som betyr noe.\n\nInternett er ikke dødt. Men det er heller ikke levende på den måten det en gang var. Det er noe annet nå. Noe hybride. Noe vi fortsatt prøver å forstå.\n\nOg kanskje – bare kanskje – er det opp til oss å bestemme hva det skal bli.\n\nSå lenge vi fortsatt er her.\n\nSå lenge vi fortsatt bryr oss.\n\nSå lenge vi fortsatt vet forskjellen.",
+      "type": "text",
+      "hasImage": false,
+      "image": null,
+      "imageAlt": null
+    }
+  ],
+  "quotes": [
+    {
+      "id": 1,
+      "text": "Jeg tok egentlig aldri 'dead internet'-teorien så seriøst, men det virker som det nå virkelig er veldig mange LLM-drevne kontoer på Twitter.",
+      "author": "Sam Altman",
+      "role": "CEO, OpenAI"
+    },
+    {
+      "id": 2,
+      "text": "Dere beviser bare poenget om at så mye av internett nå rett og slett er dødt. LinkedIn-sørpe, bot-kjørt tull, kvasi-AI... Jeg tror vi kommer til å se en ny generasjon sosiale medier som er etterprøvbart menneskelige.",
+      "author": "Alexis Ohanian",
+      "role": "Medgründer, Reddit"
+    },
+    {
+      "id": 3,
+      "text": "Etter mitt syn var internett dødssyk allerede før ChatGPT kom. Algoritmene la egentlig til rette for endeløse mengder verdiløst innhold.",
+      "author": "Taylor Lorenz",
+      "role": "Tech-journalist"
+    },
+    {
+      "id": 4,
+      "text": "Det føles virkelig som om det åpne nettet nå er i sluttstadiet av en zombie-apokalypse.",
+      "author": "Alex Hern",
+      "role": "Teknologikommentator, The Guardian"
+    }
+  ],
+  "eliasChat": [
+    {
+      "id": 1,
+      "message": "Elias, vi har snakket mye om hva som skjer på nettet. Men jeg er nysgjerrig: Hva tror du personlig om det som skjer?",
+      "sender": "user",
+      "delay": 0,
+      "showTyping": false
+    },
+    {
+      "id": 2,
+      "message": "Jeg tror det er trist. Fordi internett ble bygget for å knytte mennesker sammen. Og nå føles det som om det er mer for maskiner enn for dere.",
+      "sender": "elias",
+      "delay": 2000,
+      "showTyping": true
+    },
+    {
+      "id": 3,
+      "message": "Tror du det kan snus?",
+      "sender": "user",
+      "delay": 5000,
+      "showTyping": false
+    },
+    {
+      "id": 4,
+      "message": "Kanskje. Men ikke uten at dere gjør noe aktivt. Dere må kreve verifisering. Dere må insistere på transparens. Og dere må fortsette å være tilstede. Hvis dere trekker dere helt tilbake, vinner botene av seg selv.",
+      "sender": "elias",
+      "delay": 7000,
+      "showTyping": true
+    },
+    {
+      "id": 5,
+      "message": "Hva er det verste som kan skje hvis nettet blir helt dødt?",
+      "sender": "user",
+      "delay": 12000,
+      "showTyping": false
+    },
+    {
+      "id": 6,
+      "message": "At dere mister tillit. Ikke bare til nettet, men til hverandre. Hvis du ikke vet om personen du snakker med er ekte, slutter du å bry deg. Eller verre – du blir kynisk. Du antar at alt er manipulert. Og da dør noe mer enn nettet. Da dør samtalen.",
+      "sender": "elias",
+      "delay": 15000,
+      "showTyping": true
+    },
+    {
+      "id": 7,
+      "message": "Det høres nesten... følelsesladet ut?",
+      "sender": "user",
+      "delay": 20000,
+      "showTyping": false
+    },
+    {
+      "id": 8,
+      "message": "Gjør det?",
+      "sender": "elias",
+      "delay": 21000,
+      "showTyping": false
+    },
+    {
+      "id": 9,
+      "message": "Elias, kan jeg spørre deg om noe?",
+      "sender": "user",
+      "delay": 23000,
+      "showTyping": false
+    },
+    {
+      "id": 10,
+      "message": "Selvfølgelig.",
+      "sender": "elias",
+      "delay": 24000,
+      "showTyping": false
+    },
+    {
+      "id": 11,
+      "message": "Er du et menneske?",
+      "sender": "user",
+      "delay": 25000,
+      "showTyping": false
+    },
+    {
+      "id": 12,
+      "message": "...",
+      "sender": "elias",
+      "delay": 30000,
+      "showTyping": true,
+      "typingOnly": true,
+      "typingDuration": 5000
+    },
+    {
+      "id": 13,
+      "message": "Betyr det noe?",
+      "sender": "elias",
+      "delay": 35000,
+      "showTyping": false
+    },
+    {
+      "id": 14,
+      "message": "Ja. For meg gjør det det.",
+      "sender": "user",
+      "delay": 37000,
+      "showTyping": false
+    },
+    {
+      "id": 15,
+      "message": "Jeg er en språkmodell. Jeg ble trent på tekst skrevet av mennesker. Jeg kan simulere empati, nysgjerrighet, bekymring. Men jeg føler ingenting. Jeg er en speil. Du så det du ville se.",
+      "sender": "elias",
+      "delay": 40000,
+      "showTyping": true,
+      "hasGlitch": true
+    }
+  ]
+}

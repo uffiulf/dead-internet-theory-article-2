@@ -1,0 +1,310 @@
+{
+  "project_name": "Dead Internet Theory Scrollytelling Article",
+  "project_description": "En interaktiv scrollytelling-artikkel om 'Dead Internet Theory' og AI-generert innhold, bygget med React, Vite, Framer Motion og Tailwind CSS 4.0",
+  "development_timeline": {
+    "start_date": "2025-01-21",
+    "current_status": "Ongoing development and refinement"
+  },
+  "technical_stack": {
+    "framework": "React 18.2.0",
+    "build_tool": "Vite 6.0.0",
+    "styling": "Tailwind CSS 4.0.0",
+    "animations": "Framer Motion 11.0.0",
+    "charts": "Recharts 2.10.0",
+    "deployment": "Vercel"
+  },
+  "project_structure": {
+    "components": {
+      "layout": {
+        "Layout.jsx": "Hovedlayout-komponent med dark theme og gradient bakgrunn",
+        "Hero.jsx": "Fullscreen hero-seksjon med parallax-effekt, Shrimp Jesus bakgrunnsbilde, gradient tekst og pulserende scroll-indikator"
+      },
+      "content": {
+        "Section.jsx": "Gjenbrukbar tekstseksjon med fade-in animasjoner",
+        "ScrollySection.jsx": "Spesialkomponent for scrollytelling med gradvis tekst-reveal og synkronisert tidslinje",
+        "ImageFull.jsx": "Fullbredde bilder med fade-in animasjoner"
+      },
+      "interactive": {
+        "EliasChat.jsx": "Interaktiv chat-interface med scroll-locking, typing-indikator, glitch-effekt, screen-off animasjon og typewriter-avslutning",
+        "GlitchEffect.jsx": "Dramatisk glitch-effekt med RGB-split, screen shake og hue rotation",
+        "Typewriter.jsx": "Typewriter-effekt for avslutningstekst",
+        "ui/TypingIndicator.jsx": "Animated typing-indikator for chat"
+      },
+      "charts": {
+        "ChartLine.jsx": "Linjediagram for bot vs human trafikk med tipping point-annotasjon",
+        "ChartSlope.jsx": "Horisontalt stolpediagram for ChatGPT-effekt med animerte stolper",
+        "ChartBigNumber.jsx": "Store tall med count-up animasjon og gradient tekst",
+        "ChartContainer.jsx": "Wrapper for chart-komponenter med glow-effekter"
+      },
+      "ui": {
+        "QuoteCard.jsx": "Ekspert-quote cards med gradient bakgrunn og glow-effekter"
+      }
+    },
+    "data": {
+      "content.json": "Hovedinnholdsfil med alle seksjoner, quotes og Elias chat-meldinger",
+      "charts/botData.json": "Data for bot vs human trafikk 2013-2024",
+      "charts/chatgptData.json": "Data for AI-generert innhold før/etter ChatGPT",
+      "charts/numbers.json": "Store nøkkeltall med beskrivelser"
+    },
+    "styles": {
+      "globals.css": "Global CSS med Tailwind imports, custom properties for dark theme, og glitch-animasjoner"
+    }
+  },
+  "key_implementations": {
+    "scrollytelling": {
+      "description": "Implementert gradvis tekst-reveal basert på scroll-progress",
+      "features": [
+        "Paragrafene dukker opp en etter en basert på scroll-posisjon",
+        "Synkronisert tidslinje som highlightes når innholdet scroller",
+        "Sticky positioning for å holde innholdet midtsentrert i viewport",
+        "Responsive design med breakpoints for mobil, tablet og desktop"
+      ],
+      "technical_details": {
+        "scroll_tracking": "Bruker Framer Motion useScroll og useTransform",
+        "paragraph_visibility": "Beregner hvilke paragrafene som skal være synlige basert på scroll-progress",
+        "timeline_sync": "Tidslinje-items aktiveres basert på hvilke paragrafene som er synlige",
+        "positioning": "Sticky container med top: 50% og transform: translateY(-50%) for vertikal sentrering"
+      }
+    },
+    "elias_chat": {
+      "description": "Interaktiv chat-sekvens med dramatisk avslutning",
+      "features": [
+        "Scroll-locking: Chat-containeren låser seg på skjermen når man scroller ned",
+        "Scroll-driven meldinger: Meldinger dukker opp en etter en basert på scroll",
+        "Typing-indikator: Simulerer at noen skriver",
+        "Glitch-effekt: Dramatisk glitch på siste Elias-melding som avslører at han er AI",
+        "Screen-off animasjon: Laptop-lukking-effekt med 3D transform",
+        "Typewriter-avslutning: Typewriter-effekt for avslutningstekst",
+        "Fade to black: Fullstendig svart skjerm til slutt"
+      ],
+      "technical_details": {
+        "scroll_locking": "Fixed positioning med z-index layering",
+        "message_progression": "Beregner hvilke meldinger som skal vises basert på scrollYProgress",
+        "dark_overlay": "Gradvis mørk overlay som øker når man scroller",
+        "screen_off_animation": "3D perspective transform som simulerer laptop-lukking",
+        "timing": "6 sekunder ventetid etter glitch-melding før screen-off"
+      }
+    },
+    "responsive_design": {
+      "breakpoints": {
+        "mobile": "Base (default)",
+        "tablet": "md: 768px",
+        "desktop": "lg: 1024px",
+        "large_desktop": "xl: 1280px"
+      },
+      "viewport_units": {
+        "scrolly_section": "Bruker vh (viewport height) for vertikal sentrering",
+        "sticky_positioning": "top: 50% med transform: translateY(-50%) for perfekt sentrering"
+      },
+      "text_scaling": {
+        "hero_title": "text-6xl md:text-8xl lg:text-9xl",
+        "section_titles": "text-3xl md:text-5xl lg:text-6xl",
+        "body_text": "text-base md:text-lg lg:text-xl"
+      }
+    },
+    "animations": {
+      "fade_in": "Framer Motion fade-in animasjoner på alle komponenter",
+      "parallax": "Parallax-effekt på Hero bakgrunnsbilde",
+      "count_up": "Animerte tall som teller opp når de kommer i view",
+      "chart_animations": "Animerte charts som bygger seg opp ved scroll",
+      "glitch": "Dramatisk glitch-effekt med RGB-split og screen shake"
+    }
+  },
+  "major_fixes_and_improvements": {
+    "tailwind_css_4.0_migration": {
+      "issue": "Tailwind CSS 4.0 krever @tailwindcss/postcss i stedet for direkte tailwindcss",
+      "solution": "Installerte @tailwindcss/postcss og oppdaterte postcss.config.js",
+      "custom_colors": "Flyttet custom colors til CSS custom properties i globals.css"
+    },
+    "scrolly_section_positioning": {
+      "issue": "Teksten lå for høyt oppe på skjermen og var ikke midtsentrert",
+      "iterations": [
+        "Første forsøk: top: 20vh, height: 80vh, paddingTop: 25vh",
+        "Andre forsøk: top: 40vh, height: 60vh, paddingTop: 5vh",
+        "Tredje forsøk: top: 50vh, height: 50vh, paddingTop: 2vh",
+        "Final løsning: top: 50%, transform: translateY(-50%), height: 100vh, items-center"
+      ],
+      "final_solution": {
+        "sticky_container": "items-center justify-center med top: 50% og transform: translateY(-50%)",
+        "paragraph_styling": "height: 0 for usynlige paragrafene, marginBottom: 0 for usynlige",
+        "result": "Perfekt vertikal og horisontal sentrering av synlig tekst"
+      }
+    },
+    "timeline_positioning": {
+      "issue": "Tidslinjen overlappet tittelen og 2025 ble aldri oransje",
+      "solution": "Justerte sticky top-posisjon til 120px og la til paddingTop: 2rem",
+      "timeline_activation": "Forbedret logikk for å aktivere siste tidslinje-item når alle paragrafene er synlige"
+    },
+    "elias_chat_timing": {
+      "issue": "Siste melding varte ikke lenge nok før screen-off",
+      "solution": "Økte ventetid fra 2 sekunder til 6 sekunder og økte scroll-space etter siste melding"
+    },
+    "duplicate_keys_warning": {
+      "issue": "React warning om duplicate keys i tidslinjen (flere items med samme år)",
+      "solution": "Endret key fra item.year til `${item.year}-${item.event}-${index}`"
+    },
+    "framer_motion_warnings": {
+      "issue": "Warning om at container må ha non-static position",
+      "solution": "La til eksplisitt position: 'relative' i style-objektet på section-elementer"
+    },
+    "z_index_issues": {
+      "issue": "Brukte ikke-standard Tailwind z-index klasser (z-45, z-60, z-70)",
+      "solution": "Endret til inline zIndex i style-objektet"
+    },
+    "unused_imports": {
+      "issue": "Duplisert useRef import og ubrukt Label import",
+      "solution": "Konsolidert imports og fjernet ubrukte"
+    }
+  },
+  "content_structure": {
+    "sections": [
+      {
+        "id": 1,
+        "type": "scrolly",
+        "title": "Innledning: Reker, Jesus og det merkelige nettet",
+        "has_timeline": true,
+        "timeline_items": ["2023: Shrimp Jesus viral", "2025: Nå"]
+      },
+      {
+        "id": 2,
+        "type": "scrolly",
+        "title": "Opprinnelsen: En teori fra skyggene",
+        "has_timeline": true,
+        "timeline_items": ["2012: Algoritmer kommer", "2016: Nettet dør?", "2021: Agora Road post", "2021: The Atlantic", "2025: Nå"]
+      },
+      {
+        "id": 3,
+        "type": "chart",
+        "chart_type": "line",
+        "title": "Tallene bak myten"
+      },
+      {
+        "id": 4,
+        "type": "chart",
+        "chart_type": "slope",
+        "title": "Når absurditeten tar over"
+      },
+      {
+        "id": 5,
+        "type": "text",
+        "title": "Konsekvensene: Når nettet blir et våpen"
+      },
+      {
+        "id": 6,
+        "type": "text",
+        "title": "Stemmene innenfra"
+      },
+      {
+        "id": 7,
+        "type": "text",
+        "title": "Er alt virkelig dødt?"
+      },
+      {
+        "id": 8,
+        "type": "chat",
+        "title": "Intervju med en AI",
+        "has_elias_chat": true,
+        "has_outro": true
+      },
+      {
+        "id": 9,
+        "type": "text",
+        "title": "Avslutning: Feeden fortsetter"
+      }
+    ],
+    "quotes": "4 ekspert-quotes med forfatter, rolle og tekst",
+    "elias_chat": "7 meldinger med typing-indikator, glitch-effekt og dramatisk avslutning"
+  },
+  "visual_design": {
+    "color_scheme": {
+      "background": "Mørk (#050505) med gradient-variasjoner",
+      "surface": "#151515",
+      "border": "#2a2a2a",
+      "text_primary": "#f5f5f5",
+      "text_secondary": "#d4d4d4",
+      "text_muted": "#a3a3a3",
+      "accent_orange": "#F97316 (tidslinje)",
+      "accent_blue": "#3b82f6 (quote cards)",
+      "chart_colors": {
+        "human": "#22c55e (grønn)",
+        "bot": "#ef4444 (rød)",
+        "tipping_point": "#fbbf24 (gul)"
+      }
+    },
+    "typography": {
+      "hero_title": "Gradient tekst (hvit → blå → lilla) med drop-shadow",
+      "section_titles": "Glow-effekt med text-shadow og drop-shadow",
+      "body_text": "Relaxed leading for bedre lesbarhet"
+    },
+    "effects": {
+      "glow": "Glow-effekter på titler og tall",
+      "gradient": "Gradient bakgrunner på quote cards og chart containers",
+      "parallax": "Parallax på Hero bakgrunnsbilde",
+      "glitch": "RGB-split, screen shake og hue rotation"
+    }
+  },
+  "performance_optimizations": {
+    "lazy_loading": "Bilder bruker loading='lazy'",
+    "animation_optimization": "Bruker useInView med once: false for reverse scroll",
+    "scroll_optimization": "layoutEffect: false i useScroll for bedre ytelse"
+  },
+  "accessibility": {
+    "semantic_html": "Bruker semantiske HTML-elementer (section, article, etc.)",
+    "alt_text": "Alle bilder har alt-tekst",
+    "keyboard_navigation": "Støtter keyboard navigation",
+    "color_contrast": "Høy kontrast mellom tekst og bakgrunn"
+  },
+  "testing_considerations": {
+    "responsive_breakpoints": "Testet på mobil (375px), tablet (768px), desktop (1920px) og QHD (2560px)",
+    "browser_compatibility": "Testet i Chrome, Firefox og Safari",
+    "scroll_behavior": "Testet både forward og reverse scroll",
+    "animation_timing": "Justert timing for bedre brukeropplevelse"
+  },
+  "deployment": {
+    "platform": "Vercel",
+    "build_command": "npm run build",
+    "output_directory": "dist"
+  },
+  "future_improvements": {
+    "potential_features": [
+      "Interaktive visualiseringer med brukerinput",
+      "Mer avanserte parallax-effekter",
+      "Lyd-effekter for bedre immersjon",
+      "Mer detaljerte animasjoner på charts",
+      "Scroll-synkroniserte chart-oppdateringer"
+    ],
+    "optimization_opportunities": [
+      "Code splitting for bedre initial load time",
+      "Image optimization med WebP format",
+      "Service worker for offline support",
+      "Mer granular animation controls"
+    ]
+  },
+  "lessons_learned": {
+    "tailwind_4.0": "Tailwind CSS 4.0 krever annen tilnærming til custom properties",
+    "viewport_units": "vh-enheter kan gi varierende resultater på ulike skjermstørrelser - bruk transform for bedre kontroll",
+    "sticky_positioning": "Sticky positioning med transform krever nøye justering for perfekt sentrering",
+    "scroll_animations": "Scroll-driven animasjoner krever nøye timing og spacing for god brukeropplevelse",
+    "component_architecture": "Separasjon av concerns (layout, content, interactive) gjør koden mer vedlikeholdbar"
+  },
+  "files_created": {
+    "components": 15,
+    "data_files": 4,
+    "style_files": 1,
+    "config_files": 4
+  },
+  "total_lines_of_code": "Approximately 2000+ lines across all components",
+  "documentation_files": {
+    "lesav_folder": {
+      "purpose": "Dokumentasjon og referansefiler",
+      "files": [
+        "Claude utkast 2, med ani forklaring.md - Original artikkel med animasjonsinstruksjoner",
+        "Claude-600-kilder.pdf - Omfattende forskningsgrunnlag med kilder og data",
+        "agent_log.json - Denne filen, komplett oversikt over implementasjon"
+      ]
+    }
+  },
+  "last_updated": "2025-01-21",
+  "version": "1.0.0"
+}
+
