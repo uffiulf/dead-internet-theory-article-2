@@ -22,7 +22,11 @@ export default function EliasChat({ messages = [] }) {
   });
 
   // Transform scroll progress to opacity (0 = normal, 1 = dark)
-  const overlayOpacity = useTransform(scrollYProgress, [0, 0.1, 0.9, 1], [0, 0.8, 0.95, 1]);
+  // Modified: Fade out at the end to reveal sources
+  const overlayOpacity = useTransform(scrollYProgress, [0, 0.1, 0.9, 1], [0, 0.8, 0.95, 0]);
+  
+  // New: Fade out content at the very end
+  const contentOpacity = useTransform(scrollYProgress, [0.9, 1], [1, 0]);
 
   // Calculate which messages should be visible based on scroll progress
   // Reserve more space after last message for user to process
@@ -193,12 +197,12 @@ Så lenge vi fortsatt vet forskjellen.`;
       )}
 
       {/* Fixed chat container - locked on screen like a movie */}
-      <div
+      <motion.div
         ref={chatRef}
         className="fixed inset-0 flex items-center justify-center"
         style={{
           pointerEvents: isInView && !showScreenOff ? 'auto' : 'none',
-          opacity: showScreenOff ? 0 : 1,
+          opacity: showScreenOff ? 0 : contentOpacity, // Use contentOpacity here
           transition: 'opacity 1.5s ease-out',
           zIndex: 50
         }}
@@ -254,7 +258,7 @@ Så lenge vi fortsatt vet forskjellen.`;
             )}
           </div>
         </div>
-      </div>
+      </motion.div>
 
       {/* Typewriter conclusion - centered on screen */}
       {showTypewriter && (
@@ -265,7 +269,8 @@ Så lenge vi fortsatt vet forskjellen.`;
           transition={{ duration: 1 }}
           style={{
             backgroundColor: '#000000',
-            zIndex: 60
+            zIndex: 60,
+            opacity: contentOpacity // Fade out with scroll
           }}
         >
           <div className="container-custom max-w-3xl px-6 md:px-8">
@@ -282,20 +287,6 @@ Så lenge vi fortsatt vet forskjellen.`;
             </div>
           </div>
         </motion.div>
-      )}
-
-      {/* Final fade to complete black */}
-      {typewriterComplete && (
-        <motion.div
-          className="fixed inset-0"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 2 }}
-          style={{
-            backgroundColor: '#000000',
-            zIndex: 70
-          }}
-        />
       )}
     </section>
   );

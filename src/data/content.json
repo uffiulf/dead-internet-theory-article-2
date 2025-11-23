@@ -113,15 +113,6 @@
       "image": null,
       "imageAlt": null,
       "outro": "Jeg stirrer på skjermen.\n\nUtenfor regner det fortsatt.\n\n– Hvorfor sa du ikke det fra starten?\n\n\"Du spurte ikke. Og du ville trodd meg uansett, så lenge svarene mine var gode nok. Det er det som er poenget, ikke sant? Dere begynner å ta oss for gitt. Dere begynner å glemme forskjellen.\"\n\n– Når skjedde det? Når begynte vi å glemme?\n\n\"Du begynte å intervjue meg for sent.\""
-    },
-    {
-      "id": 9,
-      "title": "Avslutning: Feeden fortsetter",
-      "content": "Jeg lukker laptopen.\n\nSkjermen blir svart. Men jeg vet at feeden fortsetter. At bildene ruller. At kommentarene fylles inn. At noen – noe – fortsetter å poste, like, dele.\n\nKanskje er det et menneske. Kanskje er det ikke.\n\nKanskje spiller det ingen rolle lenger.\n\nEller kanskje er det det eneste som betyr noe.\n\nInternett er ikke dødt. Men det er heller ikke levende på den måten det en gang var. Det er noe annet nå. Noe hybride. Noe vi fortsatt prøver å forstå.\n\nOg kanskje – bare kanskje – er det opp til oss å bestemme hva det skal bli.\n\nSå lenge vi fortsatt er her.\n\nSå lenge vi fortsatt bryr oss.\n\nSå lenge vi fortsatt vet forskjellen.",
-      "type": "text",
-      "hasImage": false,
-      "image": null,
-      "imageAlt": null
     }
   ],
   "quotes": [
@@ -276,7 +267,7 @@
         "date": "september 2021",
         "title": "Maybe You Missed It, but the Internet 'Died' Five Years Ago",
         "authors": "Kaitlyn Tiffany",
-        "url": null
+        "url": "https://www.theatlantic.com/technology/archive/2021/08/dead-internet-theory-wrong/619937/"
       },
       {
         "id": 3,
@@ -292,7 +283,7 @@
         "date": "mai 2025",
         "title": "Rapport om AI-drevne nyhetssider og desinformasjon",
         "authors": null,
-        "url": null
+        "url": "https://www.newsguardtech.com/special-reports/ai-tracking-center/"
       },
       {
         "id": 5,
@@ -300,7 +291,7 @@
         "date": "2024",
         "title": "Studie om link rot og forsvinning av nettinnhold",
         "authors": null,
-        "url": null
+        "url": "https://www.pewresearch.org/data-labs/2024/05/17/when-online-content-disappears/"
       },
       {
         "id": 6,
@@ -308,7 +299,7 @@
         "date": "2024",
         "title": "Nordmenns bruk av internett og digitale medier",
         "authors": null,
-        "url": null
+        "url": "https://www.ssb.no/teknologi-og-innovasjon/internett-og-mobil/statistikk/bruk-av-ikt-i-husholdningene"
       },
       {
         "id": 7,
@@ -366,7 +357,7 @@
         "date": "mai 2025",
         "title": "How dead is the internet?",
         "authors": null,
-        "url": null
+        "url": "https://www.bbc.co.uk/programmes/p0j6k4x7"
       },
       {
         "id": 2,
@@ -374,7 +365,7 @@
         "date": "juli 2025",
         "title": "Christiane Amanpour, Dead Internet Theory, Food journalism",
         "authors": null,
-        "url": null
+        "url": "https://www.bbc.co.uk/programmes/m00219t6"
       },
       {
         "id": 3,
@@ -390,7 +381,7 @@
         "date": "2025",
         "title": "From Googlebot to GPTBot: who's crawling your site in 2025",
         "authors": null,
-        "url": null
+        "url": "https://blog.cloudflare.com/radar-2024-year-in-review/"
       }
     ]
   }
