@@ -74,11 +74,7 @@
       "type": "chart",
       "chartType": "slope",
       "hasImage": true,
-      "images": [
-        "/images/shrimp-jesus-1.jpg",
-        "/images/shrimp-jesus-2.jpg",
-        "/images/shrimp-jesus-3.jpg"
-      ],
+      "image": "https://i.imgur.com/CvxZ8vK.jpg",
       "imageAlt": "Shrimp Jesus - AI-generert viral bilde"
     },
     {
@@ -110,7 +106,7 @@
     },
     {
       "id": 8,
-      "title": "Intervju med en AI",
+      "title": "Intervju med Elias",
       "content": "– Elias, vi har snakket mye om hva som skjer på nettet. Men jeg er nysgjerrig: Hva tror du personlig om det som skjer?",
       "type": "chat",
       "hasImage": false,
