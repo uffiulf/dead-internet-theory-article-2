@@ -78,7 +78,7 @@ export default function ChartSlope() {
           <ResponsiveContainer width="100%" height={400}>
             <BarChart
               data={chartData}
-              layout="horizontal"
+              layout="vertical"
               margin={{ top: 20, right: 80, left: 100, bottom: 20 }}
             >
               <CartesianGrid strokeDasharray="3 3" stroke="#333" horizontal={false} />
@@ -121,11 +121,7 @@ export default function ChartSlope() {
                 radius={[0, 8, 8, 0]}
                 animationDuration={800}
                 animationBegin={300}
-              >
-                {chartData.map((entry, index) => (
-                  <Cell key={`before-${index}`} fill={beforeColor} />
-                ))}
-              </Bar>
+              />
               
               {/* After bars - dramatic orange with glow effect */}
               <Bar 
@@ -134,18 +130,7 @@ export default function ChartSlope() {
                 radius={[0, 8, 8, 0]}
                 animationDuration={1200}
                 animationBegin={800}
-              >
-                {chartData.map((entry, index) => (
-                  <Cell 
-                    key={`after-${index}`} 
-                    fill={afterColor}
-                    style={{
-                      filter: 'drop-shadow(0 0 8px rgba(249, 115, 22, 0.6))',
-                      transition: 'all 0.3s ease'
-                    }}
-                  />
-                ))}
-              </Bar>
+              />
             </BarChart>
           </ResponsiveContainer>
         </div>
