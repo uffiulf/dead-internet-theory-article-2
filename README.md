@@ -34,4 +34,29 @@ npm run build
 npm run preview
 ```
 
-# dead-internet-theory-article-2
+## GitHub Pages Deployment
+
+Prosjektet er konfigurert for automatisk deployment til GitHub Pages via GitHub Actions.
+
+### Automatisk Deployment
+
+1. Push til `main` branch trigger automatisk build og deployment
+2. GitHub Actions workflow bygger prosjektet og deployer til GitHub Pages
+3. Nettsiden vil være tilgjengelig på: `https://uffiulf.github.io/dead-internet-theory-article-2/`
+
+### Manuell Setup (hvis nødvendig)
+
+1. Gå til **Settings** → **Pages** i GitHub repository
+2. Under **Source**, velg **GitHub Actions**
+3. Workflow vil automatisk kjøre ved push til `main` branch
+
+### Lokal Testing av Build
+
+For å teste build lokalt før deployment:
+
+```bash
+npm run build
+npm run preview
+```
+
+Dette vil bygge prosjektet og kjøre en lokal preview-server med production build.
