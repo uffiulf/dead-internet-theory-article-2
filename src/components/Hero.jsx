@@ -3,7 +3,7 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 
 export default function Hero({ title, subtitle, image, imageAlt }) {
   const { scrollYProgress } = useScroll();
-  const heroImage = image || "https://i.imgur.com/CvxZ8vK.jpg";
+  const heroImage = image || "/Shrimp_Jesus_example.jpg";
 
   const parallaxY = useTransform(scrollYProgress, [0, 1], [0, -100]);
 
