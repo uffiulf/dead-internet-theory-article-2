@@ -1,5 +1,5 @@
 # Dead Internet Theory - Scrollytelling Article
-
+Website: https://uffiulf.github.io/dead-internet-theory-article-2/
 En interaktiv scrollytelling-artikkel om "Dead Internet Theory" og AI-generert innhold.
 
 ## Teknisk Stack
