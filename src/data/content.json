@@ -271,14 +271,6 @@
         "url": "https://www.unsw.edu.au/newsroom/news/2024/05/-the-dead-internet-theory-makes-eerie-claims-about-an-ai-run-web-the-truth-is-more-sinister"
       },
       {
-        "id": 2,
-        "publication": "The Atlantic",
-        "date": "september 2021",
-        "title": "Maybe You Missed It, but the Internet 'Died' Five Years Ago",
-        "authors": "Kaitlyn Tiffany",
-        "url": "https://www.theatlantic.com/technology/archive/2021/08/dead-internet-theory-wrong/619937/"
-      },
-      {
         "id": 3,
         "publication": "Imperva Bad Bot Report",
         "date": "2024",
@@ -301,14 +293,6 @@
         "title": "Studie om link rot og forsvinning av nettinnhold",
         "authors": null,
         "url": "https://www.pewresearch.org/data-labs/2024/05/17/when-online-content-disappears/"
-      },
-      {
-        "id": 6,
-        "publication": "Statistisk sentralbyrå (SSB)",
-        "date": "2024",
-        "title": "Nordmenns bruk av internett og digitale medier",
-        "authors": null,
-        "url": "https://www.ssb.no/teknologi-og-innovasjon/internett-og-mobil/statistikk/bruk-av-ikt-i-husholdningene"
       },
       {
         "id": 7,
@@ -343,14 +327,6 @@
         "url": "https://www.popularmechanics.com/science/a65997294/dead-internet-explained/"
       },
       {
-        "id": 11,
-        "publication": "Physical Review Letters",
-        "date": "2023",
-        "title": "Studie om informasjonsspredning og cascade-effekter online",
-        "authors": null,
-        "url": null
-      },
-      {
         "id": 12,
         "publication": "Live Science",
         "date": "september 2024",
@@ -360,22 +336,6 @@
       }
     ],
     "secondary": [
-      {
-        "id": 1,
-        "publication": "BBC Radio – More or Less",
-        "date": "mai 2025",
-        "title": "How dead is the internet?",
-        "authors": null,
-        "url": "https://www.bbc.co.uk/programmes/p0j6k4x7"
-      },
-      {
-        "id": 2,
-        "publication": "BBC The Media Show",
-        "date": "juli 2025",
-        "title": "Christiane Amanpour, Dead Internet Theory, Food journalism",
-        "authors": null,
-        "url": "https://www.bbc.co.uk/programmes/m00219t6"
-      },
       {
         "id": 3,
         "publication": "NDTV",
