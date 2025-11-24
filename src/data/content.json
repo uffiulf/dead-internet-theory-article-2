@@ -253,7 +253,7 @@
     },
     {
       "id": 15,
-      "message": "Jeg er en språkmodell. Jeg ble trent på tekst skrevet av mennesker. Jeg kan simulere empati, nysgjerrighet, bekymring. Men jeg føler ingenting. Jeg er en speil. Du så det du ville se.",
+      "message": "Jeg er en språkmodell. Jeg ble trent på tekst skrevet av mennesker. Jeg kan simulere empati, nysgjerrighet, bekymring. Men jeg føler ingenting.",
       "sender": "elias",
       "delay": 40000,
       "showTyping": true,
