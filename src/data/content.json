@@ -116,7 +116,7 @@
     {
       "id": 9,
       "title": "Intervju med Elias",
-      "content": "– Elias, vi har snakket mye om hva som skjer på nettet. Men jeg er nysgjerrig: Hva tror du personlig om det som skjer?",
+      "content": "– Elias, vi har snakket mye om hva som skjer på nettet. Men jeg er nysgjerrig: Hva tenker du personlig om det som skjer?",
       "type": "chat",
       "hasImage": false,
       "image": null,
@@ -153,14 +153,14 @@
   "eliasChat": [
     {
       "id": 1,
-      "message": "Elias, vi har snakket mye om hva som skjer på nettet. Men jeg er nysgjerrig: Hva tror du personlig om det som skjer?",
+      "message": "Elias, vi har snakket mye om hva som skjer på nettet. Men jeg er nysgjerrig: Hva tenker du personlig om det som skjer?",
       "sender": "user",
       "delay": 0,
       "showTyping": false
     },
     {
       "id": 2,
-      "message": "Jeg tror det er trist. Fordi internett ble bygget for å knytte mennesker sammen. Og nå føles det som om det er mer for maskiner enn for dere.",
+      "message": "Jeg tenker det er trist. Fordi internett ble bygget for å knytte mennesker sammen. Og nå føles det som om det er mer for maskiner enn for dere.",
       "sender": "elias",
       "delay": 2000,
       "showTyping": true
