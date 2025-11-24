@@ -106,6 +106,15 @@
     },
     {
       "id": 8,
+      "title": "",
+      "content": "Vi avslutter samtalen. Jeg trykker \"Leave Voice Channel\".\n\nBegynner å skrive ned notater mens det fortsatt er friskt i minnet. Elias' stemme. Måten han snakket på. Pausene når han tenkte seg om.\n\nDiscord pinger.\n\n**Elias:** Takk for samtalen! Håper jeg fikk sagt det jeg ville si.\n\n**Meg:** Absolutt. Det var veldig nyttig. Kan jeg følge opp med noen spørsmål på tekst?\n\n**Elias:** Selvfølgelig! Bare kjør på.",
+      "type": "text",
+      "hasImage": false,
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": 9,
       "title": "Intervju med Elias",
       "content": "– Elias, vi har snakket mye om hva som skjer på nettet. Men jeg er nysgjerrig: Hva tror du personlig om det som skjer?",
       "type": "chat",
